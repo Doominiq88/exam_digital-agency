@@ -315,7 +315,9 @@
 
 /* responsive */
 
-.section-responsive {}
+.section-responsive {
+    margin: auto;
+}
 
 .section-responsive img {
     height: auto;
