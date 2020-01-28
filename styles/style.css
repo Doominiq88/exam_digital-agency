@@ -12,7 +12,6 @@
 /* header  */
 
 .section-header {
-    min-width: ;
     height: 800px;
     background: linear-gradient(to left bottom, rgba(48, 35, 163, 0.7), rgba(51, 160, 168, 0.8) 100%), url(../img/wallper2.png) no-repeat;
     background-size: cover;
@@ -175,7 +174,8 @@
 }
 
 .section-about-wrapper__title,
-.section-servises-wrapper__title {
+.section-servises-wrapper__title,
+.section-responsive-wrapper__title {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -185,7 +185,8 @@
 }
 
 .section-about-wrapper__title hr,
-.section-servises-wrapper__title hr {
+.section-servises-wrapper__title hr,
+.section-responsive-wrapper__title hr {
     width: 60px;
     height: 3px;
     background-color: #9a7ad5;
@@ -284,6 +285,7 @@
 .section-servises-wrapper__button {
     padding-top: 60px;
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .btn-servises {
@@ -316,9 +318,40 @@
 /* responsive */
 
 .section-responsive {
-    margin: auto;
+    background: url(../img/responsive\ wallper.png) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 950px;
+    z-index: 0;
 }
 
-.section-responsive img {
-    height: auto;
+.section-responsive-wrapper__title h2 {
+    color: white;
 }
+
+.section-container-wrapper__mobile {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.tablet-wrapper {
+    position: absolute;
+    top: 113px;
+}
+
+.mobile-wrapper {
+    z-index: 1;
+    position: absolute;
+    right: 220px;
+    top: 321px;
+}
+
+
+/* end responsive */
+
+
+/* team  */
+
+
+/* end team  */
