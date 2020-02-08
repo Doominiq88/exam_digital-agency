@@ -1,0 +1,9 @@
+@media (max-width: 1206px) {
+    .wrapper__pictire {
+        flex-wrap: wrap;
+        justify-content: space-evenly
+    }
+    .wrapper__pictire {
+        /* width: 70%; */
+    }
+}
