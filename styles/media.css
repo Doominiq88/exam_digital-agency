@@ -1,9 +1,26 @@
 @media (max-width: 1206px) {
     .wrapper__pictire {
         flex-wrap: wrap;
-        justify-content: space-evenly
+        justify-content: space-evenly;
+        padding: 1%;
     }
-    .wrapper__pictire {
-        /* width: 70%; */
+    .wrapper__pictire img {
+        padding-bottom: 1%;
+    }
+    .team-item {
+        padding-bottom: 3%;
+    }
+    .blog-wrap__item {
+        /* flex-wrap: wrap; */
+        align-items: center;
+    }
+}
+
+@media (max-width: 1026px) {
+    .section-header-wrapper__title h1 {
+        font-size: 80px;
+    }
+    .section-header-menu {
+        display: none;
     }
 }
